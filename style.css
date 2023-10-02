@@ -1,0 +1,31 @@
+
+body{
+    font-family: Arial;
+    min-height: 500px;
+    color: white;
+    background: black;
+}
+
+#quiz{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: white 3px solid;
+    padding: 10px 40px 40px 40px;
+    background: linear-gradient(to top left, rgb(30, 108, 124), black);
+    width: 50%;
+}
+
+button{
+    border: 2px solid white;
+    background: rgb(122, 215, 231);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+button:hover{
+    color: white;
+    background: rgb(12, 45, 51);
+}
